@@ -6,7 +6,7 @@ Configuration du fichier stting avant deployement
 `python manage.py check --deploy`
 
 ## Configure
-````
+```
 # path: projet/projet/settings.py
 ...
 DEBUG = False
