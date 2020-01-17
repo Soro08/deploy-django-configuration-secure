@@ -7,7 +7,8 @@ Configuration du fichier stting avant deployement
 
 ## Configure
 ````
-# SECURITY WARNING: don't run with debug turned on in production!
+# path: projet/projet/settings.py
+...
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'your_domain_name', 'your_ip_add']
@@ -23,4 +24,6 @@ SECURE_HSTS_PRELOAD = True
 
 
 SECURE_CONTENT_TYPE_NOSNIFF = True
+
+...
 ```
